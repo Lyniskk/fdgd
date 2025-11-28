@@ -1,0 +1,57 @@
+body {
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfwwDsjvSHytd9DYkqeBFdqWIHND_R-VgvUzJ28spReDDYNc4D71j8hFeKurohsoBgCKQl3luYoIUMicrrZCXBt3lIs42HhTTX-QUCw-N0pl4ioAI0S1z-_TbBY9IVVROttF09r67CG7H3/s1600/smc_tplex.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: black;
+  scroll-behavior: smooth;
+}
+
+.top-nav {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 10px 20px;
+}
+
+.nav-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: black;
+  pointer-events: none;
+}
+
+.nav-buttons .nav-link {
+  margin-left: 15px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.nav-buttons .nav-link:hover {
+  color: darkgreen;
+}
+
+.content-section {
+  background: rgba(255, 255, 255, 0);
+  margin-top: 20px;
+  padding: 20px 0;
+  border-radius: 8px;
+  color: black;
+}
+
+.text-box {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section-img {
+  border-radius: 6px;
+  width: 100%;
+  height: auto;
+}
+
+.large-img {
+  max-width: 850px;
+}

@@ -1,0 +1,51 @@
+body {
+  background-image: url("https://besaphil.com/wp-content/uploads/2019/10/notre-1024x653.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: black;
+  scroll-behavior: smooth;
+}
+
+.top-nav {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 10px 20px;
+}
+
+.nav-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: black;
+  pointer-events: none;
+}
+
+.nav-buttons .nav-link {
+  margin-left: 15px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.nav-buttons .nav-link:hover {
+  color: darkgreen;
+}
+
+.content-section {
+  background: rgba(255, 255, 255, 0);
+  margin-top: 20px;
+  padding: 20px 0;
+  border-radius: 8px;
+  color: black;
+}
+
+.text-box {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section-img {
+  border-radius: 6px;
+}
